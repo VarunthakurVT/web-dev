@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+.parent{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: red;
+    /* grid-auto-flow: dense; */
+}
+#child1{
+
+    background-color: rebeccapurple;
+    border: solid 2px red ;
+   
+
+}
+#child2{
+    background-color: blanchedalmond;
+    border: solid 2px red ;    
+    
+
+}
+#child3{
+    background-color: dimgray;
+    border: solid 2px red ;
+        
+
+}
+#child4{
+    background-color:cadetblue;
+    border: solid 2px red ;
+        
+
+}

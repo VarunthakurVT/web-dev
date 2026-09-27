@@ -1,0 +1,81 @@
+*{
+     margin:0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    border: 1px dotted grey ;
+}
+h1{
+    margin:2rem;
+    
+    padding:2rem;
+}
+p{
+    margin: 2em 1em 3em 4em;
+    text-decoration: underline red wavy;
+    text-transform:uppercase;
+    text-align:justify;
+    text-indent:9em;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
+    font-weight: 400;
+    font-style:normal;
+    font-family:'Times New Roman', Times, serif;
+
+}
+body{
+    font-size:1.3rem;
+    /* color:wheat;
+    background-color:rgba(0,0,0,0.5); */
+    
+ }
+ form{
+    border: 2px solid black;
+    
+ }
+ input,button{
+    font:inherit;
+ }
+ .circle{
+    background-color: gold;
+    margin: 2px auto;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    border-top:3px solid red;
+    outline: 2px solid green;
+    outline-offset: 3px;
+ }
+ a{
+    text-decoration: none;
+    cursor:grab;
+    
+ }
+ a:visited{
+    color: green;
+ }
+ a:hover,a:focus{
+    color:lightblue;
+    background-color: gold;
+ }
+ a:active{
+    color: bisque;
+ }
+ ol{
+    list-style-type:upper-alpha;
+    text-align: center;
+    list-style-position:inside;
+    list-style-image: url('./images/angry\ kurama.jpg') ;
+    list-style: square  inside;
+
+ }
+ ul li:nth-child(odd){
+    color:red;
+
+ }
+ul ::marker{
+    color:red;
+    content:"hello ";
+}

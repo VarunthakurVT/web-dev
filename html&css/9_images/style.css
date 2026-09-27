@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+.hero{
+    
+}
+.porfile-pic{
+width: 35%;
+}
+.porfile-pic img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border:5px double red;
+    border-radius: 50%;
+    
+
+}
+.example{
+    margin-top: 1rem;
+    padding-left:20%;
+    border:1px solid red;
+}
+img{
+    display: block;
+}
+.example img{
+    width: 50%;
+    height: auto;
+}

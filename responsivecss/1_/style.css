@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: rgb(178, 166, 169);
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+nav{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+
+/* px is fixed  */
+/* percentage child depend upon the parent  */
+#box{
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction:column ;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    height: 400px;
+    width: 400px;
+    border: 3px solid gold;
+   
+}
+#box1{
+    background-color: beige;
+    height: 100px;
+    width: 100px;
+}
+#box2{
+    background-color: khaki;
+height: 100px;
+    width: 100px;
+}
+#box3{
+    background-color: chocolate;
+    height: 100px;
+    width: 100px;
+}
+#ch {
+    width: 3ch;
+}
+#lh {
+    margin-top: 2lh;
+}
